@@ -71,3 +71,8 @@ Return the following binary tree:
 
 
    15   7
+
+   * Take the root val fro preoder array, then use it to find left & right part of Inorder .
+   * Initialize a root node from preorder
+   * Use Arrays.copyOfRange to create new arrays out of inorder as inLeft & inRight. Take lengths of inLeft & inRight to get the lengths of preleft & preRight.
+   
